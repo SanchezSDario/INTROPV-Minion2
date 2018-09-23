@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/RedMinotaur.png-1b1cf520757db0de8aa5620698ad2230.stex"
+path="res://.import/wg4.png-c659131341d746f5382039f172e27c5a.stex"
 
 [deps]
 
-source_file="res://Art/Foes/RedMinotaur.png"
-dest_files=[ "res://.import/RedMinotaur.png-1b1cf520757db0de8aa5620698ad2230.stex" ]
+source_file="res://Art/Foes/Goblin/WalkingGoblin/wg4.png"
+dest_files=[ "res://.import/wg4.png-c659131341d746f5382039f172e27c5a.stex" ]
 
 [params]
 

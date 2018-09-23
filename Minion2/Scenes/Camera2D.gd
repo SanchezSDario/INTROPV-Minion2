@@ -4,5 +4,5 @@ func _ready():
 	pass
 
 func _process(delta):
-	position = get_parent().get_node("Player").position
-	pass
+	if(get_parent().get_node("Player") != null):
+		position = get_parent().get_node("Player").position

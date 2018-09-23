@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Ghost.png-cd79d183b7563c1d2223deff0079ae77.stex"
+path="res://.import/ig6.png-a479a2eacc91769d8aee65be7c5aaf88.stex"
 
 [deps]
 
-source_file="res://Art/Foes/Ghost.png"
-dest_files=[ "res://.import/Ghost.png-cd79d183b7563c1d2223deff0079ae77.stex" ]
+source_file="res://Art/Foes/Goblin/IdleGoblin/ig6.png"
+dest_files=[ "res://.import/ig6.png-a479a2eacc91769d8aee65be7c5aaf88.stex" ]
 
 [params]
 

@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Death.png-3f4ea75fec0e719fc12723fffb3b3a19.stex"
+path="res://.import/DeathGoblin.png-87f6c6919578732403c63743aa981e52.stex"
 
 [deps]
 
-source_file="res://Art/Foes/Death.png"
-dest_files=[ "res://.import/Death.png-3f4ea75fec0e719fc12723fffb3b3a19.stex" ]
+source_file="res://Art/Foes/Goblin/DeathGoblin/DeathGoblin.png"
+dest_files=[ "res://.import/DeathGoblin.png-87f6c6919578732403c63743aa981e52.stex" ]
 
 [params]
 

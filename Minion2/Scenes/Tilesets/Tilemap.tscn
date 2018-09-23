@@ -116,7 +116,6 @@ __meta__ = {
 position = Vector2( -2.86102e-05, 0.101912 )
 scale = Vector2( 3.22051, 3.18981 )
 shape = SubResource( 1 )
-one_way_collision = true
 __meta__ = {
 "_edit_group_": true
 }
@@ -196,7 +195,6 @@ __meta__ = {
 
 [node name="GroundGrassCentre" type="Sprite" parent="GroundGrass" index="5"]
 
-editor/display_folded = true
 position = Vector2( 51.7064, 20.6474 )
 texture = ExtResource( 1 )
 region_enabled = true
@@ -208,7 +206,6 @@ __meta__ = {
 
 [node name="StaticBody2D" type="StaticBody2D" parent="GroundGrass/GroundGrassCentre" index="0"]
 
-editor/display_folded = true
 position = Vector2( 0.0352297, 0.00472735 )
 scale = Vector2( 0.248853, 0.250448 )
 input_pickable = false
@@ -232,8 +229,6 @@ __meta__ = {
 }
 
 [node name="Ground" type="Node" parent="." index="1"]
-
-editor/display_folded = true
 
 [node name="GroundLeft" type="Sprite" parent="Ground" index="0"]
 
@@ -385,7 +380,6 @@ __meta__ = {
 
 [node name="GroundRight" type="Sprite" parent="Ground" index="4"]
 
-editor/display_folded = true
 position = Vector2( 232.199, 25.4496 )
 texture = ExtResource( 1 )
 region_enabled = true
@@ -397,7 +391,6 @@ __meta__ = {
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Ground/GroundRight" index="0"]
 
-editor/display_folded = true
 position = Vector2( 0.0352297, 0.00472735 )
 scale = Vector2( 0.248853, 0.250448 )
 input_pickable = false
@@ -459,11 +452,8 @@ __meta__ = {
 
 [node name="Rock" type="Node" parent="." index="2"]
 
-editor/display_folded = true
-
 [node name="TopRockLeft" type="Sprite" parent="Rock" index="0"]
 
-editor/display_folded = true
 position = Vector2( 287.883, 27.0127 )
 texture = ExtResource( 1 )
 region_enabled = true
@@ -475,7 +465,6 @@ __meta__ = {
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Rock/TopRockLeft" index="0"]
 
-editor/display_folded = true
 position = Vector2( 0.0352297, 0.00472735 )
 scale = Vector2( 0.248853, 0.250448 )
 input_pickable = false
@@ -648,7 +637,6 @@ __meta__ = {
 
 [node name="RockCentre" type="Sprite" parent="Rock" index="5"]
 
-editor/display_folded = true
 position = Vector2( 325.294, 57.3814 )
 texture = ExtResource( 1 )
 region_enabled = true
@@ -660,7 +648,6 @@ __meta__ = {
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Rock/RockCentre" index="0"]
 
-editor/display_folded = true
 position = Vector2( 0.0352297, 0.00472735 )
 scale = Vector2( 0.248853, 0.250448 )
 input_pickable = false
@@ -759,7 +746,6 @@ __meta__ = {
 
 [node name="TopRockCentre" type="Sprite" parent="Rock" index="8"]
 
-editor/display_folded = true
 position = Vector2( 323.093, 26.1324 )
 texture = ExtResource( 1 )
 region_enabled = true
@@ -771,7 +757,6 @@ __meta__ = {
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Rock/TopRockCentre" index="0"]
 
-editor/display_folded = true
 position = Vector2( 0.0352297, 0.00472735 )
 scale = Vector2( 0.248853, 0.250448 )
 input_pickable = false
