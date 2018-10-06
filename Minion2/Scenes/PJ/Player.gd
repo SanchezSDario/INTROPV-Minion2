@@ -1,56 +1,29 @@
 extends KinematicBody2D
 
-export (int) var gravity
+signal hit
+signal dead
+var state_identifier
+export (int) var life_points
 export (int) var jump_force
 export (int) var movement_speed
-var walk_state
-var jump_state
+export (int) var JUMP_CONSTANT
 var collision
+var jump
+var death = false
 
 func _ready():
-	set_meta("type", "Player")
-	pass
+	set_meta("Type", "Player")
 
 func _process(delta):
-#	animation()
-	collision = move_and_collide(Vector2(0, gravity - jump_force))
-	move()
-	collide()
-	gravitation(delta)
+	StateSystem.update_state(self)
+	if(!death):
+		MovementSystem.execute(self)
+		GravitySystem.apply(self, delta)
+		CollisionSystem.execute(self)
 
-func move():
-	idle()
-	move_right()
-	move_left()
-	jump()
+func _on_DeathTimer_timeout():
+	queue_free()
+	print("You died")
 
-func idle():
-	if(!Input.is_action_pressed("ui_left") and 
-	   !Input.is_action_pressed("ui_right") and
-	   (collision != null and collision.collider.get_meta("type") == "Floor")):
-		$AnimatedSprite.play("Idle")
-
-func move_left():
-	if(Input.is_action_pressed("ui_left")):
-		$AnimatedSprite.flip_h = true
-		collision = move_and_collide(Vector2(-movement_speed, 0))
-		$AnimatedSprite.play("Walk")
-
-func move_right():
-	if(Input.is_action_pressed("ui_right")):
-		$AnimatedSprite.flip_h = false
-		collision = move_and_collide(Vector2(movement_speed, 0))
-		$AnimatedSprite.play("Walk")
-
-func jump():
-	if(jump_force > 1): $AnimatedSprite.play("Hit")
-	if(Input.is_action_just_pressed("ui_up")):
-		jump_force = 28
-
-func collide():
-	if(collision != null and collision.collider.get_meta("type") == "Enemigo"):
-		queue_free()
-		print("Death")
-
-func gravitation(delta_time):
-	if (jump_force > 0): jump_force -= (gravity + jump_force)/2 * delta_time
+func _on_RecoveryTimer_timeout():
+	pass # replace with function body

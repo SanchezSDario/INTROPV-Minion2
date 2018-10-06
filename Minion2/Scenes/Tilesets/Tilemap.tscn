@@ -13,7 +13,6 @@ extents = Vector2( 10, 10 )
 
 [node name="GroundGrassLeft" type="Sprite" parent="GroundGrass" index="0"]
 
-editor/display_folded = true
 position = Vector2( 20.983, 20.1598 )
 texture = ExtResource( 1 )
 region_enabled = true
@@ -25,7 +24,6 @@ __meta__ = {
 
 [node name="StaticBody2D" type="StaticBody2D" parent="GroundGrass/GroundGrassLeft" index="0"]
 
-editor/display_folded = true
 position = Vector2( 0.0352297, 0.00472735 )
 scale = Vector2( 0.248853, 0.250448 )
 input_pickable = false
@@ -87,6 +85,7 @@ __meta__ = {
 
 [node name="GroundGrassPlatformCentre" type="Sprite" parent="GroundGrass" index="2"]
 
+editor/display_folded = true
 position = Vector2( 52.1989, 54.1186 )
 texture = ExtResource( 1 )
 region_enabled = true

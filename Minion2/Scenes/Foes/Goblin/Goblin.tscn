@@ -51,11 +51,14 @@ collision/safe_margin = 0.08
 script = ExtResource( 1 )
 gravity = null
 movement_speed = null
+jump_force = null
+JUMP_CONSTANT = null
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="." index="0"]
 
 frames = SubResource( 1 )
-animation = "Walk"
+animation = "Idle"
+frame = 4
 flip_h = true
 __meta__ = {
 "_edit_group_": true

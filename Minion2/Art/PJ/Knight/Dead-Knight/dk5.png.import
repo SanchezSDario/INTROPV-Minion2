@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Dead-Knight.png-407718a7ba4ed9a54ed4abfd023fa547.stex"
+path="res://.import/dk5.png-a68ee16ade0e0c5599ec721eea6a94ea.stex"
 
 [deps]
 
-source_file="res://Art/PJ/Knight/Dead-Knight.png"
-dest_files=[ "res://.import/Dead-Knight.png-407718a7ba4ed9a54ed4abfd023fa547.stex" ]
+source_file="res://Art/PJ/Knight/Dead-Knight/dk5.png"
+dest_files=[ "res://.import/dk5.png-a68ee16ade0e0c5599ec721eea6a94ea.stex" ]
 
 [params]
 
