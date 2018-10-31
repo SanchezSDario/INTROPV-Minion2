@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Attack-Knight.png-d5ee19fd07ced54473e2045390b7c9d8.stex"
+path="res://.import/am6.png-913fa1b14a9be62fb0b55b5e471d8fbf.stex"
 
 [deps]
 
-source_file="res://Art/PJ/Knight/Attack-Knight.png"
-dest_files=[ "res://.import/Attack-Knight.png-d5ee19fd07ced54473e2045390b7c9d8.stex" ]
+source_file="res://Art/Foes/RedMinotaur/AttackMinotaur/am6.png"
+dest_files=[ "res://.import/am6.png-913fa1b14a9be62fb0b55b5e471d8fbf.stex" ]
 
 [params]
 

@@ -9,6 +9,10 @@ func _ready():
 	frames.set_animation_speed("Walk", 10)
 	frames.set_animation_loop("Death",false)
 	frames.set_animation_speed("Death",7)
+	frames.set_animation_loop("Attack",false)
+	frames.set_animation_speed("Attack",15)
+	frames.set_animation_loop("Hit",false)
+	frames.set_animation_speed("Hit",10)
 	player = get_parent()
 
 func _process(delta):
@@ -25,4 +29,6 @@ func select_animation():
 			sprite_animation = "Walk"
 		"Jump": sprite_animation = "Jump"
 		"Death": sprite_animation = "Death"
+		"Attack": sprite_animation = "Attack"
+		"Hit": sprite_animation = "Hit"
 		_: sprite_animation = "Idle"
